@@ -7,7 +7,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 header {
@@ -15,7 +15,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1% 10%;
+    padding: 0% 7%;
+    height: 5vh;
 }
 
 .header-logo {
@@ -40,6 +41,52 @@ main {
     flex-direction: column;
     justify-content: space-between;
     flex: 1;
+}
+
+.apresentacao {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 7%;
+    height: 25vh;
+}
+
+.apresentacao-conteudo {
+    width: 30%;
+}
+
+.apresentacao-titulo {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.apresentacao-subtitulo {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.signup-botao {
+    background-color: #3882f6;
+    border: none;
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 8px;
+    padding: 2% 5%;
+    margin-top: 16px;
+    cursor: pointer;
+}
+
+.apresentacao-imagem {
+    background-color: gray;
+    color: #f9faf8;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 footer {
