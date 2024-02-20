@@ -48,7 +48,7 @@ main {
     background-color: #1f2937;
     display: flex;
     flex-direction: column;
-    height: 100%;
+    height: 30vh;
     width: 100%;
     gap: 10%;
 }
@@ -64,6 +64,7 @@ main {
 
 .apresentacao-conteudo {
     width: 80%;
+    height: 100%;
 }
 
 .apresentacao-titulo {
@@ -138,6 +139,21 @@ main {
 
 .citacao {
     background-color: #E5E7EB;
+    padding: 5% 20%;
+}
+
+.citacao-texto {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    text-align: center;
+}
+
+.citacao-autor {
+    text-align: end;
+    padding-top: 16px;
+    font-weight: bold;
+    color: #1f2937;
 }
 
 footer {
