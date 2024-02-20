@@ -16,7 +16,7 @@ header {
     display: flex;
     height: 100%;
     width: 100%;
-    padding: 1%;
+    padding: 1% 0%;
 }
 
 .header-logo {
@@ -78,7 +78,7 @@ main {
     color: #E5E7EB;
 }
 
-.signup-botao {
+button {
     background-color: #3882f6;
     border: none;
     color: #f9faf8;
@@ -156,9 +156,29 @@ main {
     color: #1f2937;
 }
 
+.signup {
+    background-color: #3882f6;
+    margin: 5% 20%;
+    padding: 2%;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.signup-chamado {
+    width: 50%;
+    color: #f9faf8;
+}
+
+.signup-botao {
+    border: 2px #f9faf8 solid;
+}
+
 footer {
     text-align: center;
-    padding: 1% 10%;
+    padding: 1% 0%;
     background-color: #1f2937;
     color: #f9faf8;
+    width: 100%;
 }
