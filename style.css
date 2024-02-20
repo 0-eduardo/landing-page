@@ -7,16 +7,16 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* height: 100vh; */
+    align-items: center;
+    height: 100vh;
 }
 
 header {
     background-color: #1f2937;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0% 7%;
-    height: 5vh;
+    height: 100%;
+    width: 100%;
+    padding: 1%;
 }
 
 .header-logo {
@@ -41,19 +41,29 @@ main {
     flex-direction: column;
     justify-content: space-between;
     flex: 1;
+    width: 100%;
 }
 
-.apresentacao {
+.right, .left {
     background-color: #1f2937;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1% 7%;
-    height: 25vh;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    gap: 10%;
+}
+
+.right {
+    align-items: flex-end;
+    padding-right: 10%;
+}
+
+.left {
+    padding-left: 10%;
 }
 
 .apresentacao-conteudo {
-    width: 30%;
+    width: 80%;
 }
 
 .apresentacao-titulo {
@@ -82,11 +92,52 @@ main {
 .apresentacao-imagem {
     background-color: gray;
     color: #f9faf8;
-    width: 30%;
-    height: 100%;
+    width: 70%;
+    height: 80%;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.informacoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    padding: 2%;
+}
+
+.info-titulo {
+    text-align: center;
+    font-size: 38px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info {
+    text-align: center;
+}
+
+.info-img {
+    height: 20vh;
+    width: 20vh;
+    border: 5px #3882f6 solid;
+    border-radius: 24px;
+}
+
+.info-subtexto {
+    width: 25vh;
+    font-size: 16px;
+}
+
+.citacao {
+    background-color: #E5E7EB;
 }
 
 footer {
